@@ -53,16 +53,15 @@ public class Main {
         int num = 5;
         System.out.println(is10(num));
     }
-    public static int[] sort (int[] nums){
+    public static void sort (int[] nums){
         Arrays.sort(nums);
-        System.out.println(nums);
-        return nums;
     }
     public static void task6(){
         System.out.println("Задача 6");;
         int[] anna ={1, 5, 2, 10, 8, 7};
-        int[] news = sort(anna);
-        System.out.println(news);
+        System.out.println(Arrays.toString(anna));
+        sort(anna);
+        System.out.println(Arrays.toString(anna));
 
     }
     public static void task7() {
